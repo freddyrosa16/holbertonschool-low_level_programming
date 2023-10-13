@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /** 
  * main - Principal function, and prints the function 
  * Return: returns value 0
