@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	char charType;
-	int intergerType;
-	long int longintergerType;
-	long long int longlongintergertype;
-	float floatType;
-	// Size of operator is used to evaluate the size of the variable
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(charType));
-	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(intergerType));
-	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(longintergerType));
-	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(longlongintergerType));
-	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(floatType));
-	return(0)
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	return(0);
+}
