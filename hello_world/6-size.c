@@ -11,9 +11,9 @@ int main(void)
 	long long int longlongintergertype;
 	float floatType;
 	// Size of operator is used to evaluate the size of the variable
-	printf("Size of a char: %lu byte(s)\n", sizeof(charType));
-	printf("Size of an int: %lu byte(s)\n", sizeof(intergerType));
-	printf("Size of a long int: %lu byte(s)\n", sizeof(longintergerType));
-	printf("Size of a long long int: %lu byte(s)\n", sizeof(longlongintergerType));
-	printf("Size of a float: %lu byte(s)\n", sizeof(floatType));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(charType));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(intergerType));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(longintergerType));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(longlongintergerType));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(floatType));
 	return(0)
