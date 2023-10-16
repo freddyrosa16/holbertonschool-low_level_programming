@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- *  main - Prints the function depending on the number that is being generated. If a number is greater than 0 it will print os positive, else if the number is equal to 0 it will print is zero, else it will print is negative
+ *  main - Principal function, and prints the function
  *  Return: returns value 0
  */
 int main(void)
