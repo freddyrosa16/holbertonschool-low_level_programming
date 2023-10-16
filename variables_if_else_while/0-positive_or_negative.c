@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** main - principal function, and prints the function
- * Return: returns 0
+
+/**
+ *  main - Principal function, prints the function depending on the number that is being generated. If a number is greater than 0 it will print os positive, else if the number is equal to 0 it will print is zero, else it will print is negative
+ *  Return: returns value 0
  */
 int main(void)
 {
