@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Principal function, and prints the function
+ * Return: return value 0
  */
 int main(void)
 {
@@ -9,4 +10,5 @@ int main(void)
 {
 	putchar(ch);
 }
+	return (0);
 }
