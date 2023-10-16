@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - principal function, and prints the function
+/** main - principal function, and prints the function
  * Return: returns 0
  */
 int main(void)
@@ -14,11 +14,11 @@ int main(void)
 	if (n > 0)
 	{
 		printf("is positive");
-	}	
+	}
 	else if (n == 0)
 	{
 		printf("is zero");
-	}	
+	}
 	else
 	{
 		printf("is negative");
