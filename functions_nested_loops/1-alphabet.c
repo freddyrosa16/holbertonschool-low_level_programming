@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include "_putchar.c"
 /**
  * print_alphabet - prints the alphabet in lowercase, and a new line
  */
