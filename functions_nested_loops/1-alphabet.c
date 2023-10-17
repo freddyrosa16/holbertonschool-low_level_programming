@@ -2,20 +2,15 @@
 #include "main.h"
 /**
  * main - first function, prints the function
- * Return: return value 0
+ * print_alphabet - prints the alphabet in lowercase, and a new line
  */
 void print_alphabet(void);
 
 int main(void)
 {
-	char a[] = "abcdefghijklmnopqrstuvwxyz";
-	int b;
+	char l;
 
-	for (b = 0 ; b <= 25 ; b++)
-	return (0);
+	for (l = 'a' ; l <= 'z' ; l++)
+		_putchar(l);
+	_putchar('\n');
 }
-{
-	putchar(a[b]);
-}
-	putchar('\n');
-
