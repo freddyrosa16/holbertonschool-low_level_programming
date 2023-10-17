@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - Checks if its lowercase
+ * _islower - Checks if its lowercase
+ * Return: return value 0,1
  */
 int _islower(int c)
 {
