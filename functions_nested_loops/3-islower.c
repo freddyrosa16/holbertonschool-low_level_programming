@@ -2,7 +2,7 @@
 /**
  * _isalpha - Checks if its lowercase
  */
-int _isalpha(int c)
+int _islower(int c)
 {
 	int i;
 	for (i = 97 ; i < 122 ; i++)
