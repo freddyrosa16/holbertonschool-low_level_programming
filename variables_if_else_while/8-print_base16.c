@@ -12,6 +12,6 @@ int main(void)
 	{putchar('0' + n); }
 	for (l = 'a' ; l <= 'f' ; l++)
 	{putchar(l); }
-	putchar('\n')
-	return (0)
+	putchar('\n');
+	return (0);
 }
