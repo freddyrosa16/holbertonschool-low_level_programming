@@ -3,7 +3,7 @@
  * _islower - Checks if its lowercase
  * Return: return value 0,1
  */
-int _islower(int c);
+int _islower(int c)
 {
 	int i;
 
