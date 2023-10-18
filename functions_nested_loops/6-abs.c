@@ -4,6 +4,7 @@
 /**
  * _abs - function to find the absolute value
  * @n: variable for numbers in the absolute value
+ * Return: return value of the same number or multiply by -1
  */
 int _abs(int n)
 {
