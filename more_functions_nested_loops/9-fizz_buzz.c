@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * Main - The first function and main point.
+ * main - The first function and main point.
  * Return: return value 0.
  */
 int main(void)
