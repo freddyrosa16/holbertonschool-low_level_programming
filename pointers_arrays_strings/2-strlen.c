@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strlen - A function that meassures the length of a string.
+ * strlen - A function that returns the length of a string.
  * @s: string to evaluate.
  * Return: return the value of the string.
  */
