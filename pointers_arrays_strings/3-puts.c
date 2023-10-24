@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _puts - 
+ * _puts - A function that prints a string to stdout.
+ * @str: pointer to the string to print.
  */
 void _puts(char *str)
 {
