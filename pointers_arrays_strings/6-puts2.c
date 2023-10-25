@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ * puts2 - A function that prints the first character of a string.
+ * @str: The character for the string.
  */
 void puts2(char *str)
 {
