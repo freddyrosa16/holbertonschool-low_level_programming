@@ -7,14 +7,19 @@
  */
 char *create_array(unsigned int size, char c)
 {
+	char *cr;
+	unsigned int i;
+
 	if (size == 0)
 		return (NULL);
-	char *char_array = (char *)malloc(size);
-	if (char_array == 0)
+
+	cr = malloc(sizeof(c) * size);
+
+	if (cr == NULL)
 		return (NULL);
-	for (unsigned int i = 0 ; i < size; i++);
-	{
-		char_array[i] = c;
-	}
-	return (char_array);
+
+	for (i = 0; i < size; i++)
+		cr[i] = c;
+
+	return (cr);
 }
