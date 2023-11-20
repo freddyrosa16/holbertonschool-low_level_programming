@@ -8,21 +8,10 @@
  * @action: pointer to the function
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
-	{
-	if (action != NULL)
-	{
-		void (*p)(int);
+{
+	unsigned int i;
 
-		p = action;
-
-		if (array != NULL)
-		{
-			unsigned int long i;
-
-			for (i = 0; i < size; i++)
-			{
-				(*p)(array[i]);
-			}
-		}
-	}
+	if (array && action)
+		for (i = 0; i < size; i++)
+			action(array[i]);
 }
